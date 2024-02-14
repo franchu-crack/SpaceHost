@@ -1,1 +1,1 @@
-docker pull ngrok/ngrok
+docker run --net=host -it -e NGROK_AUTHTOKEN=2cMomGN2b4fKqbrB7iY6LC6z9zC_65sp66sEJgbgqkRzgWYEa ngrok/ngrok:latest http 80
